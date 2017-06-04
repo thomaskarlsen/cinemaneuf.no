@@ -1,0 +1,94 @@
+.logotyp-img {
+	display:block;
+	float:left;
+}
+
+.logotyp {
+	display:block;
+	float:left;
+}
+
+.logotyp h1 {
+	padding-left:10px;
+	font-size:1.4em;
+	z-index:0;
+	font-family:$font-sans;
+	font-weight:bold;
+	text-transform: uppercase;
+	color:black;
+}
+
+.logotyp h1:hover {
+	color:red;
+}
+
+img.logo {
+	height:3em;
+	width:3em;
+}
+
+ul.menu {
+	float:right;
+	margin:0;
+	margin-top:1em;
+	padding:none;
+}
+
+ul.menu li {
+	list-style-type: none;
+	font-family:$font-sans;
+	float: left;
+	color:black;
+	padding:.4em .4em .4em 2em;
+	height:3em;
+}
+
+.menu {
+	display:none;
+	font-family:$font-sans;
+
+}
+
+.mobil-meny {
+	position:absolute;
+	right:0;
+	z-index:1000;
+	text-align:right;
+}
+
+.navbar-collapse {
+	padding:1em;
+	background:black;
+	text-align:left;
+}
+
+.navigasjon {
+	margin:0em 0em 1em 0em;
+	font-family:$font-sans;
+}
+
+li.menu-item a {
+	color:black;
+}
+
+li.menu-item a:hover {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+	.mobil-meny {
+		display:none;
+	}
+
+	.menu {
+	display:block;
+	float:right;
+	position:absolute;
+	right:0;
+	font-family:$font-sans;
+	}
+
+	.navigasjon {
+	margin:1em 0em 4em 0em;
+}
+}

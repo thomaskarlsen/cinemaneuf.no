@@ -1,0 +1,52 @@
+// Grid settings
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+// Colors
+$brand-primary:         #27ae60;
+
+@font-face {
+	font-family:'Tiempos';
+	src: 
+	url('../fonts/TiemposText-Regular.otf'),
+	url('../fonts/TiemposText-Medium.otf')
+}
+
+@font-face {
+	font-family:'Apercu';
+	src:
+	url('..fonts/Apercu/Apercu-Regular.otf'),
+	url('..fonts/Apercu/Apercu-Bold.otf')
+}
+
+@font-face {
+	font-family:'Apercu-Mono';
+	src:
+	url('..fonts/Apercu/Apercu-Mono.otf')
+}
+
+$font-serif: 'Tiempos', Arial;
+$font-sans: 'Apercu', Times;
+$font-mono: 'Apercu-Mono';
+
+$farge-main: springgreen;
+
+button.navbar-toggle {
+	background:none;
+	border:none;
+	font-size:2em;
+}
+
+h1.entry-title {
+	font-size:2em;
+}
+
+h1.entry-title a {
+	border:none;
+}
+
+h5 {
+	font-size:1em;
+	color:green;
+	font-weight:bold;
+}

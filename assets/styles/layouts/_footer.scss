@@ -1,0 +1,47 @@
+
+.footer {
+	padding-top:2em;
+	padding-bottom:2em;
+	background:black;
+	color:white;
+	font-size:.85em;
+	line-height:1.6em;
+}
+
+ul.footer {
+	margin:0;
+	padding:0;
+}
+
+ul.footer li {
+	margin:0;
+	padding:0;
+	padding-bottom:.5em;
+	list-style-type: none;
+}
+
+.footer a {
+	color:white;
+	border-bottom:1px solid white;
+}
+
+.footer a:hover {
+	color:$farge-main;
+	border-bottom:1px solid $farge-main;
+}
+
+ul.sosiale li {
+	font-size:2em;
+	display:block;
+	float:left;
+	padding-right:.7em;
+}
+
+ul.sosiale a {
+	border:none;
+}
+
+ul.sosiale a:hover {
+	color:$farge-main;
+	border:none;
+}

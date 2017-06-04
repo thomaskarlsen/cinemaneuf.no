@@ -1,0 +1,54 @@
+.boks-sup {
+	border-left:15px solid red;
+}
+
+.boks-tid {
+	border-left:15px solid yellow;
+}
+
+.boks-fil {
+	border-left:15px solid blue;
+}
+
+h1.film-tittel {
+	font-size:3.2em;
+}
+
+h2.seksjon {
+	font-size:2.5em;
+	font-family:$font-sans;
+	margin-bottom:1.25em;
+}
+
+h3.sub-seksjon {
+	font-size:1.5em;
+	font-family:$font-sans;
+	margin-bottom:1.25em;
+}
+
+.sub-seksjon {
+	font-size:.8em;
+}
+h2.om {
+	font-size:1.5em;
+	line-height:1.25em;
+	margin-bottom:1em;
+}
+h3.sub-dag {
+	font-size:1.5em;
+	font-family:$font-sans;
+	margin-bottom:1.25em;
+}
+
+.img-space img {
+	padding:4em 0em;
+}
+
+.page-header h1 {
+	font-family:$font-sans;
+}
+
+.om-img {
+	margin-bottom:1em;
+	padding-bottom:1em;
+}
