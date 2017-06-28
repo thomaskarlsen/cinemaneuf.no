@@ -10,8 +10,8 @@
 
 .logotyp h1 {
 	padding-left:10px;
-	font-size:1.4em;
-	z-index:0;
+	font-size:1.5em;
+	z-index:100;
 	font-family:$font-sans;
 	font-weight:bold;
 	text-transform: uppercase;
@@ -46,7 +46,6 @@ ul.menu li {
 .menu {
 	display:none;
 	font-family:$font-sans;
-
 }
 
 .mobil-meny {
@@ -65,14 +64,20 @@ ul.menu li {
 .navigasjon {
 	margin:0em 0em 1em 0em;
 	font-family:$font-sans;
+	z-index:100;
+	position:relative;
+
 }
 
 li.menu-item a {
 	color:black;
+		opacity:.6;
+
 }
 
 li.menu-item a:hover {
 	text-decoration: none;
+	opacity:1;
 }
 
 @media screen and (min-width: 1024px) {
@@ -90,5 +95,6 @@ li.menu-item a:hover {
 
 	.navigasjon {
 	margin:1em 0em 4em 0em;
+	z-index:100;
 }
 }

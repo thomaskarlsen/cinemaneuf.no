@@ -7,3 +7,4 @@
     <?php the_excerpt(); ?>
   </div>
 </article>
+“The cinema is truth 24 frames-per-second”

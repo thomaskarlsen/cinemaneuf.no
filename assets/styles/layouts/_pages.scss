@@ -1,3 +1,360 @@
+.program-tema span{
+	font-size:2em;
+}
+
+.english {
+	margin-top:2em;
+}
+
+.film-page-nav {
+	display:none;
+	font-size:1.5em;
+	font-family:$font-sans;
+}
+
+@media screen and (min-width:800px) {
+
+.film-page-nav {
+	position:fixed;
+	z-index:3;
+	display:block;
+}
+
+.f-p-n-v {
+	position:fixed;
+	top:50;
+	left:0;
+	margin-left:1em;
+}
+
+.f-p-n-h {
+	position:fixed;
+	top:50;
+	right:0;
+	margin-right:1em;
+	text-align:right;
+}
+
+.f-p-n-tittel {
+	display:none;
+	padding:1em;
+	position:relative;
+	background:black;
+	opacity:1;
+	z-index:100;
+	font-size:.75em;
+}
+
+a:hover + .f-p-n-tittel {
+	display:block;
+    color:white;
+    opacity: 1;
+}
+}
+
+h4.film {
+	margin-top:0;
+	font-family:$font-film;
+	text-transform: uppercase;
+}
+
+.sub-film {
+	font-family:$font-sans;
+	font-size:.9em;
+	margin-bottom:1em;
+	margin-top:0;
+}
+
+.rotate {
+	-webkit-transform: rotate(-7deg);
+	transform:rotate(-7deg);
+	margin-top:1em;
+}
+
+ul.liste {
+	position:relative;
+	width:100%;
+}
+
+ul.liste li {
+	border-bottom:1px solid black;
+	padding:.5em 0em;
+	font-family:$font-sans;
+	opacity:.4;
+}
+
+ul.liste :hover {
+	opacity:1;
+}
+
+.page-film-tittel {
+	margin-top:2em;
+	font-family:$font-film;
+	font-size:2em;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width:800px) {
+	.page-film-tittel {
+		font-size:5em;
+		margin-top:0em;
+	}
+}
+
+.film-page-head {
+	background:green;
+
+	background:url('http://localhost:8888/cinemaneuf/wp-content/themes/cinemaneuf-2017/dist/images/bg_tidsbilde.gif') repeat;
+	color:white;
+	margin-top:-9em;
+	padding-top:8em;
+	z-index:10;
+	min-height:30em;
+}
+
+h1.page-film-tittel {
+	position:relative;
+	z-index:1000;
+}
+
+.ingress h3 {
+	margin:3em 0em;
+	font-size:1em;
+	line-height:1.33em;
+	font-weight:lighter;
+	font-family:$font-sans;
+}
+
+@media screen and (min-width:800px) {
+	.ingress h3 {
+		font-size:1.25em;
+	}
+}
+
+.ingress {
+	margin:0;
+	padding:0;
+	position:relative;
+	z-index:100;
+}
+
+.page-film-img img {
+	max-height:320px;
+	width:auto;
+	position:relative;
+	padding-bottom:30px;
+	opacity:.9;
+}
+
+@media screen and (min-width: 600px) {
+	max-height:100px;
+}
+
+@media screen and (min-width: 800px) {
+	.page-film-img img {
+		position:absolute;
+		max-height:400px;
+		max-width:100vw;
+		right:0;
+		top:9em;
+	}
+}
+
+.page-film-img img:hover {
+	opacity:1;
+}
+
+
+.page-film-tekst {
+	margin-top:4em;
+}
+
+.program-liste {
+	font-size:2em;
+	padding:1em 0em .5em 0em;
+	border-top:1px solid black;
+	font-family:$font-sans;
+}
+
+.tema {
+	margin-top:2em;
+	padding:2em 0em;
+	background:lightgray;
+}
+
+h4.tema {
+	margin-top:-1.70em;
+}
+
+.tema-liste {
+	padding:1em 0em;
+	font-family: $font-mono;
+}
+
+.tema-liste:hover {
+	background:black;
+	color:white;
+}
+
+.tema-liste:first-child {
+	padding-top:0em;
+	margin-top:0em;
+}
+
+.tema-liste-tittel {
+	font-size:1.5em;
+	font-family:$font-film;
+	text-transform: uppercase;
+}
+
+.tema-liste-sub {
+	padding-top:.5em;
+}
+
+.tema h4 {
+	font-family:$font-sans;
+	font-weight:bold;
+	font-size:1em;
+}
+
+.program-liste-img {
+    display: none;
+}
+    
+a:hover + .program-liste-img {
+    display:inline-block;
+    position:absolute;
+    transform: translateX(100%) translateY(-10.2em);
+    left:100;
+    right:0;
+    z-index:10;
+	top:10;
+    border-left:3px solid black;
+}
+
+.program-liste-img img {
+	max-width:400px;
+	height:auto;
+}
+
+.program-liste-tittel {
+	font-family:$font-film;
+	text-transform:uppercase;
+	letter-spacing: 1px;
+	font-weight:bold;
+}
+
+.program-liste-month {
+	margin-top:3em;
+	background:black;
+	color:white;
+	font-size:2em;
+	padding:.5em;
+	font-family:$font-mono;
+}
+
+.no-space-top {
+	margin-top:0;
+	margin-left:5em;
+}
+
+.outdated {
+	opacity:.5;
+}
+
+.forside-img {
+	max-height:400px;
+	width:auto;
+}
+
+.forside-intro {
+	width:100%;
+	color:white;
+	padding:1em;
+	margin:none;
+}
+
+.sm {
+	background:$farge-supermandag;
+	color:white;
+}
+
+.tb {
+	background:$farge-tidsbilde;
+}
+
+.ft {
+	background:$farge-filmrulltorsdag;
+	color:white;
+}
+
+.forside-intro {
+	color:white;
+}
+
+.forside-intro h1 {
+	font-family: $font-film;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight:bold;
+	font-size:3em;
+	margin-top:.5em;
+	margin-bottom:0;
+	padding-bottom:0;}
+
+.forside-intro h2 {
+	opacity:.9;
+	font-size:1.5em;
+	font-family:$font-sans;
+	margin-left:2px;
+}
+
+.forside-intro p {
+		margin-top:1.5em;
+
+	font-family:$font-sans;
+	font-weight:normal;
+	opacity:.9;
+}
+
+.forside-intro p {
+	opacity:.9;
+}
+
+.forside-intro:hover {
+	background:black;
+}
+
+.forside-intro a {
+	color:white;
+}
+
+.forside-slider-tekst {
+	width:100%;
+	height:auto;
+	background-color:black;
+	color:white;
+	z-index:10000;
+	padding:2em;
+}
+
+.forside-slider-tekst h1 {
+	font-style: $font-sans;
+	font-size:3.5em;
+}
+
+h1 {
+	font-style: $font-sans;
+	font-size:3.5em;
+}
+
+.forside-slider-tekst a {
+	color:white;
+}
+
+.forside-slider-tekst a:hover {
+	color:$farge-main;
+}
 .boks-sup {
 	border-left:15px solid red;
 }
@@ -27,6 +384,7 @@ h3.sub-seksjon {
 }
 
 .sub-seksjon {
+	padding-top:1.6em;
 	font-size:.8em;
 }
 h2.om {
@@ -40,6 +398,26 @@ h3.sub-dag {
 	margin-bottom:1.25em;
 }
 
+span.entry-date {
+	font-family:$font-sans;
+	margin-bottom:1em;
+	opacity:.5;
+}
+
+.entry-title {
+	margin:.5em 0em;
+}
+
+.intro-outro a {
+	color:white;
+	border:none;
+}
+
+.intro-outro a:hover {
+	color:$farge-main;
+	border:none;
+}
+
 .img-space img {
 	padding:4em 0em;
 }
@@ -51,4 +429,21 @@ h3.sub-dag {
 .om-img {
 	margin-bottom:1em;
 	padding-bottom:1em;
+}
+
+.giffy-img {
+	display:none;
+}
+
+a:hover.giffy + .giffy-img {
+	display:inline;
+	position:fixed;
+	top:5%;
+	left:0%;
+	z-index: -1;
+}
+
+img.giffy-img {
+	height:100px;
+	width:auto;
 }

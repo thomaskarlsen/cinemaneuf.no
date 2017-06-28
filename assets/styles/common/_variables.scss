@@ -6,6 +6,11 @@ $sidebar-sm-columns:    4;
 $brand-primary:         #27ae60;
 
 @font-face {
+	font-family:'Sverre';
+	src: url('../fonts/Sverre-Normal.otf')
+}
+
+@font-face {
 	font-family:'Tiempos';
 	src: 
 	url('../fonts/TiemposText-Regular.otf'),
@@ -25,11 +30,38 @@ $brand-primary:         #27ae60;
 	url('..fonts/Apercu/Apercu-Mono.otf')
 }
 
+@font-face {
+	font-family:'Maison';
+	src:
+	url('../fonts/Maison-Neue-Medium.otf'),
+	url('../fonts/Maison-Neue-Bold.otf'),
+}
+
+@font-face {
+	font-family:'Maison-Mono';
+	src:
+	url('../fonts/Maison-Mono-Regular.otf'),
+	url('../fonts/Maison-Mono-Bold.otf')
+}
+
+@font-face {
+	font-family:'Separat';
+	src:
+	url('../fonts/Separat-Regular.otf')
+}
+
 $font-serif: 'Tiempos', Arial;
-$font-sans: 'Apercu', Times;
-$font-mono: 'Apercu-Mono';
+$font-sans: 'Maison','Apercu', Times;
+$font-mono: 'Maison-Mono', 'Apercu-Mono';
+$font-film: 'Separat', 'Sverre', Times;
 
 $farge-main: springgreen;
+
+$farge-supermandag: #f65058;
+$farge-tidsbilde: #00A95C;
+$farge-filmrulltorsdag:#235ba8;
+
+
 
 button.navbar-toggle {
 	background:none;
@@ -39,6 +71,7 @@ button.navbar-toggle {
 
 h1.entry-title {
 	font-size:2em;
+	font-family:$font-sans;
 }
 
 h1.entry-title a {
@@ -49,4 +82,50 @@ h5 {
 	font-size:1em;
 	color:green;
 	font-weight:bold;
+}
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 8rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+  bottom: 3rem;
+}
+
+/* Declare heights because of positioning of img element */
+
+.carousel-item > img {
+  position: relative;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+}
+
+#mycarousel {
+	margin-bottom:4em;
+}
+
+.forside-slider h1 {
+	font-style: $font-sans;
+	font-size:3.5em;
+}
+
+h1.forside-slider {
+	font-style: $font-sans;
+	font-size:3.5em;
+}
+
+
+h1 {
+	font-style: $font-sans;
+}
+
+.carousel-control-next:hover {
+	cursor:e-resize;
+}
+
+.carousel-control-prev:hover {
+	cursor:w-resize;
 }

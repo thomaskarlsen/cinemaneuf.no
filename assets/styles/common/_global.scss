@@ -1,22 +1,22 @@
 body {
 	font-family:$font-serif;
-	background:ivory;
+	background:#fdfdf7;
+	color:black;
 }
 
 a {
 	color:black;
 	text-decoration:none;
-	border-bottom:1px double black;
 }
 
 a:hover {
 	color:red;
 	text-decoration: none;
-	border-bottom:1px double red;
 }
 
 .space {
-	margin:4em 0em;
+	margin-top:4em;
+	margin-bottom:4em;
 }
 
 img.space {
@@ -29,6 +29,25 @@ h5 {
 	font-family: $font-sans;
 }
 
+.supermandag {
+	background:red;
+	color:white;
+}
+
+.tidsbilde {
+	background:yellow;
+	color:black;
+}
+
+.tidsbilde:hover {
+	color:white;
+}
+
+.filmrulltorsdag {
+	background:blue;
+	color:white;
+}
+
 ul.uten {
 	margin:0;
 	padding:0;
@@ -36,6 +55,19 @@ ul.uten {
 
 ul.uten li {
 	list-style-type: none;
+}
+
+.giffy-img {
+	display:none;
+}
+
+a:hover.giffy + .giffy-img {
+	display:1;
+	position:fixed;
+	top:5%;
+	height: 500px;
+	left:0%;
+	z-index: 1;
 }
 
 /* Meny */
@@ -63,10 +95,8 @@ ul#menu-menu-2 li a:hover {
 }
 
 .intro-info {
-	background:blue;
-	color:white;
 	z-index:10;
-	margin-top:5em;
+	margin-top:3em;
 	padding:2em;
 	text-align:center;
 }
@@ -76,7 +106,7 @@ ul#menu-menu-2 li a:hover {
 }
 
 .hjem-intro-bilde {
-	margin-top:2em;
+	margin-top:1em;
 }
 
 img.over-hover:hover {
@@ -91,21 +121,20 @@ img.over-hover:hover {
 	text-align:center;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-	font-family:$font-mono;
+	font-family:$font-sans;
 }
 
 
 .hjem-intro-ingress {
 	margin-top:2em;
-	font-size:1.5em;
+	font-size:1em;
 	line-height:1.25em;
+	font-weight:bold;
 }
 
 /* FORSIDE Programliste */
 
 .programliste-info {
-	color:black;
-	font-family:Apercu;
 	font-size:2em;
 }
 
@@ -128,7 +157,7 @@ ul.film-sub li {
 }
 
 ul.film-sub li:first-child {
-	padding-top:.5em;
+
 }
 
 ul.film-sub li:last-child {
@@ -137,13 +166,17 @@ ul.film-sub li:last-child {
 
 .intro-outro {
 	font-size:.75em;
-	padding:1em .5em;
+	padding:1em;
 }
 
 .film-info {
 	color:white;
-	padding:.2em 0em;
+	padding:.7em 0em .4em 0em;
 	border-bottom:1px solid white;
+}
+
+a.film-info {
+	padding-top:1em;
 }
 
 .film-info:hover {
@@ -153,7 +186,9 @@ ul.film-sub li:last-child {
 }
 
 .film-tittel-m {
-	font-family:$font-serif;
+	font-family:$font-film;
+	text-transform: uppercase;
+	letter-spacing: 1px;
 	line-height:40%;
 }
 

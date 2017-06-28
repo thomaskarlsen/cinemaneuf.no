@@ -19,7 +19,7 @@
     <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
     </ul></div>
     <div class="col-md-2">
-    <img src="<?= get_template_directory_uri(); ?>/dist/images/logo_nfk.png"  />
+    <img src="<?= get_template_directory_uri(); ?>/dist/images/logo_nfk.png" class="img-fluid" />
       
     </div>
     <div class="col-md-2">

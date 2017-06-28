@@ -15,15 +15,16 @@
 	</div>
 	<div class="row space">
 <div class="col-md-12 item-image">
-	<img src="<?php the_field('om-2'); ?>" class="img-fluid">
+	<img src="<?php the_field('om-bilde-2'); ?>" class="img-fluid">
 	</div>
 </div>
 <div class="row">	
 <div class="col-md-4">	
 <h3 class="sub-seksjon">Formål</h3><?php the_field('om-1'); ?>
 </div>
-		<div class="col-md-8">
+		<div class="col-md-7 offset-md-1">
 			<h3 class="sub-seksjon">Våre dagskonsepter</h3>
+			<?php the_field('om-2'); ?>
 		<div class="row sub-seksjon"><div class="col-md-4">
 		<h5>Supermandag</h5>
 		<img src="http://www.geekchicelite.com/wp-content/uploads/2016/02/o-BILL-facebook.jpg" class="img-fluid om-img">
